@@ -5,7 +5,7 @@ console.log("Running code")
 
 //functions
 function addToBasket() {
-OUTPUT.innerHTML = "<h1>Added</h1>"
+OUTPUT.innerHTML += ("You added something to cart!")
 }
 
 //other code
