@@ -9,6 +9,6 @@ OUTPUT.innerHTML = "<h1>Added</h1>"
 }
 
 //other code
-const OUTPUT = document.getElementById("Cart")
+const OUTPUT = document.getElementById("Basket")
 
 addToBasket();
