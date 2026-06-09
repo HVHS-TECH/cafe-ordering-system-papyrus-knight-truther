@@ -4,11 +4,11 @@ console.log("Running code")
 
 
 //functions
-function addToBasket() {
-OUTPUT.innerHTML += ("You added something to cart!")
-}
+
 
 //other code
 const OUTPUT = document.getElementById("Basket")
 
-addToBasket();
+function addToBasket() {
+OUTPUT.innerHTML += ("You added something to cart!")
+}
