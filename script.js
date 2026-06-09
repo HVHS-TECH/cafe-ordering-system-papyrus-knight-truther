@@ -1,1 +1,11 @@
-console.log("Hello world!")
+console.log("Running code")
+
+//Variables
+
+
+//functions
+function addToBasket() {
+
+}
+
+//other code
