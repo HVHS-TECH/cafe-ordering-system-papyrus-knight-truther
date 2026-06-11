@@ -12,6 +12,6 @@ const OUTPUT = document.getElementById("Basket")
 
 function addToBasket() {
 shoppingCart.push("Item")
-OUTPUT.innerHTML += ("You added something to cart!")
+OUTPUT.innerHTML += ("<img src="./images/Toby.png" width="150px">")
 console.log(shoppingCart)
 }
