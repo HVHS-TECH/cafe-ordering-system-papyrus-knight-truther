@@ -10,7 +10,6 @@ let menu = [Toby, Smilk]
 const OUTPUT = document.getElementById("Basket")
 
 function addTobyToBasket() {
-   
    shoppingCart.push(Toby)
    OUTPUT.innerHTML += ("Toby ")
    console.log(shoppingCart)
