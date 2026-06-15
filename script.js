@@ -2,7 +2,7 @@ console.log("Running code")
 
 //Variables
 let shoppingCart = [  ]
-let check = new set();
+let check = set();
 const Toby = "Toby"
 const Smilk = "Smilk"
 
@@ -13,7 +13,7 @@ function addTobyToBasket() {
    shoppingCart.push(Toby)
    check.add(Toby)
    function checkDuplicates(shoppingCart) {
-  return check().size !== shoppingCart.length
+  return check.size !== shoppingCart.length
  if (checkDuplicates() === true) {
   console.log("Duplicates found!")
 } 
