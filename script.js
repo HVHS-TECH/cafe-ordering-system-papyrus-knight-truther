@@ -13,7 +13,7 @@ function addTobyToBasket() {
    shoppingCart.push(Toby)
    check.add(Toby)
    function checkDuplicates(shoppingCart) {
-  return check(shoppingCart).size !== array.length
+  return check().size !== shoppingCart.length
  if (checkDuplicates() === true) {
   console.log("Duplicates found!")
 } 
