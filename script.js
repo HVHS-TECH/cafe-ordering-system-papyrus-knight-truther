@@ -2,7 +2,6 @@ console.log("Running code")
 
 //Variables
 let shoppingCart = [  ]
-let check = set();
 const Toby = "Toby"
 const Smilk = "Smilk"
 let menu = [Toby, Smilk]
