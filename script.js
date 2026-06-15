@@ -9,11 +9,13 @@ let menu = [Toby, Smilk]
 //main code
 const OUTPUT = document.getElementById("Basket")
 
-function getFormInput() {
-   const QUANTITY = document.getElementById("quantityForm")
-}
+
 
 function addTobyToBasket() {
+   function getFormInput() {
+   const QUANTITY = document.getElementById("quantityForm")
+}
+   
    shoppingCart.push(Toby)
    OUTPUT.innerHTML += ("Toby ")
    console.log(shoppingCart)
