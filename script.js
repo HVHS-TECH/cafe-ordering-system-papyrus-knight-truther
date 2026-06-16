@@ -6,10 +6,10 @@ const Toby = "Toby";
 const Smilk = "Smilk";
 let menu = [Toby, Smilk];
 
-function getFormInput() {
+/*function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
    let quantity = quantityForm.value;
-}
+}*/
 
 //main code
 const OUTPUT = document.getElementById("Basket");
@@ -17,6 +17,10 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addTobyToBasket() {
+   function getFormInput() {
+   const QUANTITY = document.getElementById("quantityForm");
+   let quantity = quantityForm.value;
+}
    if(quantity < 2){
    shoppingCart.push(Toby);
    OUTPUT.innerHTML += ("Toby ");
