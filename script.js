@@ -26,16 +26,16 @@ function addTobyToBasket() {
       for(quantity > 1; quantity --;) {
         shoppingCart.push(Toby);
       }
-      OUTPUT.innerHTML += (quantity + "Toby ")
+      OUTPUT.innerHTML += (quantity + "Toby ");
    }
 }
 
 
 
 function addSmilkToBasket() {
-shoppingCart.push(Smilk)
-OUTPUT.innerHTML += ("Smilk ")
-console.log(shoppingCart)
+shoppingCart.push(Smilk);
+OUTPUT.innerHTML += ("Smilk ");
+console.log(shoppingCart);
 }
 
 
