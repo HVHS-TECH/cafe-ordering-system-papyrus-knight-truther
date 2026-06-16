@@ -6,6 +6,11 @@ const Toby = "Toby";
 const Smilk = "Smilk";
 let menu = [Toby, Smilk];
 
+function getFormInput() {
+   const QUANTITY = document.getElementById("quantityForm");
+   let quantity = quantityForm.value;
+}
+
 //main code
 const OUTPUT = document.getElementById("Basket");
 
