@@ -22,17 +22,16 @@ function addTobyToBasket() {
    const QUANTITY = document.getElementById("quantityForm");
    let quantity = quantityForm.value;
 }
-   if(quantity = 1){
-   shoppingCart.push(Toby);
-   OUTPUT.innerHTML += ("Toby ");
-   console.log(shoppingCart);
-   }
-
-   else {
+   if(quantity > 1){
       for(quantity > 1; quantity --;) {
         shoppingCart.push(Toby);
       }
       OUTPUT.innerHTML += (quantity + "Toby ");
+   }
+   else {
+     shoppingCart.push(Toby);
+   OUTPUT.innerHTML += ("Toby ");
+   console.log(shoppingCart); 
    }
 }
 
