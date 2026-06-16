@@ -1,4 +1,4 @@
-console.log("Running code")
+console.log("Running code");
 
 //Variables
 let shoppingCart = [  ]
