@@ -22,7 +22,7 @@ function addTobyToBasket() {
    const QUANTITY = document.getElementById("quantityForm");
    let quantity = quantityForm.value;
 }
-   if(quantity < 2){
+   if(quantity = 1){
    shoppingCart.push(Toby);
    OUTPUT.innerHTML += ("Toby ");
    console.log(shoppingCart);
