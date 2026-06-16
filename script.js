@@ -23,7 +23,10 @@ function addTobyToBasket() {
    }
 
    else {
-      
+      for(quantity.value){
+        shoppingCart.push(Toby)
+      }
+      OUTPUT.innerHTML += (quantity.value "Toby ")
    }
 }
 
