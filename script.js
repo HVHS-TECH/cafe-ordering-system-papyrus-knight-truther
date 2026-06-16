@@ -1,30 +1,30 @@
 console.log("Running code");
 
 //Variables
-let shoppingCart = [  ]
-const Toby = "Toby"
-const Smilk = "Smilk"
-let menu = [Toby, Smilk]
+let shoppingCart = [  ];
+const Toby = "Toby";
+const Smilk = "Smilk";
+let menu = [Toby, Smilk];
 
 //main code
-const OUTPUT = document.getElementById("Basket")
+const OUTPUT = document.getElementById("Basket");
 
 
 
 function addTobyToBasket() {
    function getFormInput() {
-   const QUANTITY = document.getElementById("quantityForm")
+   const QUANTITY = document.getElementById("quantityForm");
    let quantity = quantityForm.value;
 }
    if(quantity < 2){
-   shoppingCart.push(Toby)
-   OUTPUT.innerHTML += ("Toby ")
-   console.log(shoppingCart)
+   shoppingCart.push(Toby);
+   OUTPUT.innerHTML += ("Toby ");
+   console.log(shoppingCart);
    }
 
    else {
-      for(quantity > 1; quantity --) {
-        shoppingCart.push(Toby)
+      for(quantity > 1; quantity --;) {
+        shoppingCart.push(Toby);
       }
       OUTPUT.innerHTML += (quantity + "Toby ")
    }
