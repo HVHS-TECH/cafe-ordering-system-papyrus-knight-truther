@@ -25,7 +25,7 @@ function addTobyToBasket() {
         shoppingCart.push(Toby);
         // if there is more than one item added, it SHOULD add them all
       }
-      OUTPUT.innerHTML += (quantity + "Toby ");
+      OUTPUT.innerHTML += quantity + "Toby ";
    }
    else {
      shoppingCart.push(Toby);
