@@ -17,9 +17,7 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addTobyToBasket() {
-   function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
-}
    if(quantity>1){ 
       for(quantity = QUANTITY; quantity>1; quantity--) {
         shoppingCart.push(Toby);
