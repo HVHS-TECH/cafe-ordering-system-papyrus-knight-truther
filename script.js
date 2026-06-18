@@ -50,3 +50,5 @@ console.log(shoppingCart);
  if (checkDuplicates() === true) {
   console.log("Duplicates found!")
 } */
+
+  
