@@ -5,7 +5,7 @@ let shoppingCart = [  ];
 const Toby = "Toby";
 const Smilk = "Smilk";
 const menu = [Toby, Smilk];
-let quantity = quantityForm.value;
+let quantity = document.getElementById("quantityForm");
 
 function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
@@ -19,10 +19,9 @@ const OUTPUT = document.getElementById("Basket");
 function addTobyToBasket() {
    function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
-   let quantity = quantityForm.value;
 }
    if(quantity>1){ 
-      for(quantity = QUANTITY; quantity>1; quantity--;) {
+      for(quantity = QUANTITY; quantity>1; quantity--) {
         shoppingCart.push(Toby);
         // if there is more than one item added, it SHOULD add them all
       }
