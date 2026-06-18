@@ -22,9 +22,10 @@ function addTobyToBasket() {
    const QUANTITY = document.getElementById("quantityForm");
    let quantity = quantityForm.value;
 }
-   if(quantity > 1){
+   if(quantity > 1){ 
       for(quantity > 1; quantity --;) {
         shoppingCart.push(Toby);
+        // if there is more than one item added, it SHOULD add them all
       }
       OUTPUT.innerHTML += (quantity + "Toby ");
    }
@@ -32,6 +33,7 @@ function addTobyToBasket() {
      shoppingCart.push(Toby);
    OUTPUT.innerHTML += ("Toby ");
    console.log(shoppingCart); 
+   //if there is only one it shoukd add only one
    }
 }
 
