@@ -19,7 +19,7 @@ const OUTPUT = document.getElementById("Basket");
 function addTobyToBasket() {
    const QUANTITY = document.getElementById("quantityForm");
 
-   if(quantity>1){ 
+   if(document.getElementById("quantityForm")>1){ 
 
       for( let i = 0; i < quantity; i++) {// that should let it count
         shoppingCart.push(Toby);
