@@ -22,7 +22,7 @@ function addTobyToBasket() {
    let quantity = quantityForm.value;
 }
    if(quantity>1){ 
-      for(quantity>1; quantity--;) {
+      for(quantity = QUANTITY; quantity>1; quantity--;) {
         shoppingCart.push(Toby);
         // if there is more than one item added, it SHOULD add them all
       }
