@@ -20,7 +20,7 @@ function addTobyToBasket() {
    function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
 }
-   if(quantity>1){ 
+   if(QUANTITY>1){ 
       for(quantity = QUANTITY; quantity>1; quantity--) {
         shoppingCart.push(Toby);
         // if there is more than one item added, it SHOULD add them all
