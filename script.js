@@ -5,7 +5,7 @@ let shoppingCart = [  ];
 const Toby = "Toby";
 const Smilk = "Smilk";
 const menu = [Toby, Smilk];
-const quantity = quantityForm.value;
+let quantity = quantityForm.value;
 
 function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
