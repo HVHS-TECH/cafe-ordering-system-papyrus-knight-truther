@@ -4,12 +4,11 @@ console.log("Running code");
 let shoppingCart = [  ];
 const Toby = "Toby";
 const Smilk = "Smilk";
-let menu = [Toby, Smilk];
-let quantity = quantityForm.value;
+const menu = [Toby, Smilk];
+const quantity = quantityForm.value;
 
 function getFormInput() {
    const QUANTITY = document.getElementById("quantityForm");
-   let quantity = quantityForm.value;
 }
 
 //main code
