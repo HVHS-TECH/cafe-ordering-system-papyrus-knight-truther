@@ -17,7 +17,7 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addTobyToBasket() {
-   const QUANTITY = document.getElementById("quantityForm");
+   let quantity = document.getElementById("quantityForm");
 
    if(document.getElementById("quantityForm")>1){ 
 
