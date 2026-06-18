@@ -29,7 +29,7 @@ function addTobyToBasket() {
    }
    else {
      shoppingCart.push(Toby);
-   OUTPUT.innerHTML += ("Toby ");
+   OUTPUT.innerHTML += quantity + "Toby ";
    console.log(shoppingCart); 
    //if there is only one it shoukd add only one
    }
