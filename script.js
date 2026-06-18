@@ -18,8 +18,10 @@ const OUTPUT = document.getElementById("Basket");
 
 function addTobyToBasket() {
    const QUANTITY = document.getElementById("quantityForm");
+
    if(quantity>1){ 
-      for(quantity = QUANTITY; quantity>1; quantity--) {
+
+      for( let i = 0; i < quantity; i++) {// that should let it count
         shoppingCart.push(Toby);
         // if there is more than one item added, it SHOULD add them all
       }
