@@ -8,7 +8,7 @@ const menu = [Toby, Smilk];
 let quantity = document.getElementById("quantityForm");
 
 function getFormInput() {
-   const QUANTITY = document.getElementById("quantityForm");
+   let QUANTITY = document.getElementById("quantityForm");
 }
 
 //main code
@@ -17,9 +17,11 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addTobyToBasket() {
-   let quantity = document.getElementById("quantityForm");
+  function getFormInput(){
+let quantity = document.getElementById("quantityForm");
+  }
 
-   if(document.getElementById("quantityForm")>1){ 
+   if(quantity > 1){ 
 
       for( let i = 0; i < quantity; i++) {// that should let it count
         shoppingCart.push(Toby);
