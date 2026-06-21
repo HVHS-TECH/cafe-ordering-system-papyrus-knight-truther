@@ -20,7 +20,6 @@ function addTobyToBasket() {
   function getFormInput(){
 let quantity = document.getElementById("quantityForm");
   }
-
    if(quantity > 1){ 
 
       for( let i = 0; i < quantity; i++) {// that should let it count
@@ -36,8 +35,6 @@ let quantity = document.getElementById("quantityForm");
    //if there is only one it shoukd add only one
    }
 }
-
-
 
 function addSmilkToBasket() {
 shoppingCart.push(Smilk);
