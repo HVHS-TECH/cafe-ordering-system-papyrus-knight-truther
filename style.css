@@ -20,6 +20,7 @@ display: grid;
 }
 
 .Menu {
+    display: grid;
 grid-row: 2 / 3;
 grid-column: 1 / 2;
 background-color: rgb(247, 216, 78);
