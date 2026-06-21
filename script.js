@@ -5,11 +5,12 @@ let shoppingCart = [  ];
 const Toby = "Toby";
 const Smilk = "Smilk";
 const menu = [Toby, Smilk];
-let quantity = document.getElementById("quantityForm");
+const QUANTITY = document.getElementById("quantityForm");
+let quantity = quantityForm.value;
 
-function getFormInput() {
+/*function getFormInput() {
    let QUANTITY = document.getElementById("quantityForm");
-}
+}*/
 
 //main code
 const OUTPUT = document.getElementById("Basket");
@@ -18,7 +19,7 @@ const OUTPUT = document.getElementById("Basket");
 
 function addTobyToBasket() {
   function getFormInput(){
-let quantity = document.getElementById("quantityForm");
+let quantity = quantityForm.value;
   }
    if(quantity > 1){ 
 
