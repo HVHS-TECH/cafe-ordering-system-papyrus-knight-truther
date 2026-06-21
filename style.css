@@ -1,9 +1,14 @@
+@font-face{
+    font-family: "UT";
+    src: url("./fonts/undertale-deltarune-text-font-extended\ \(1\).ttf");
+}
 
 body {
 background-color:cornflowerblue;
 }
 
 .Main {
+    font-family:"UT";
 display: grid;
 }
 
