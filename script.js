@@ -42,11 +42,7 @@ let quantity = quantityForm.value;
    }
 }
 
-function addSmilkToBasket() {
-shoppingCart.push(Smilk);
-OUTPUT.innerHTML += ("Smilk ");
-console.log(shoppingCart);
-}
+
 
 
 
