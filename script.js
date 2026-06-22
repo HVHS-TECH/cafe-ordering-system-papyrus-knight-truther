@@ -31,7 +31,7 @@ let quantity = quantityForm.value;
         shoppingCart.push(TOBY);
         // if there is more than one item added, it SHOULD add them all
       }
-      OUTPUT.innerHTML += quantity + TOBY.name ;
+      OUTPUT.innerHTML += quantity += TOBY.name += " " ;
       console.log(shoppingCart);
    }
    else {
