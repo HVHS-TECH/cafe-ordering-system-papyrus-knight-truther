@@ -2,7 +2,10 @@ console.log("Running code");
 
 //Variables
 let shoppingCart = [  ];
-const Toby = "Toby";
+const Toby ={
+  name: "Toby",
+  price: 
+} 
 const Smilk = "Smilk";
 const menu = [Toby, Smilk];
 const QUANTITY = document.getElementById("quantityForm");
