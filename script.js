@@ -4,9 +4,12 @@ console.log("Running code");
 let shoppingCart = [  ];
 const Toby ={
   name: "Toby",
-  price: 
+  price: 3
 } 
-const Smilk = "Smilk";
+const Smilk ={
+  name: "Smilk",
+  price: 5
+}
 const menu = [Toby, Smilk];
 const QUANTITY = document.getElementById("quantityForm");
 let quantity = quantityForm.value;
