@@ -3,11 +3,11 @@ console.log("Running code");
 //Variables
 let shoppingCart = [  ];
 const TOBY ={
-  tobyName: "Toby",
+  name: "Toby",
   price: 3
 } 
 const SMILK ={
-  smilkName: "Smilk",
+  name: "Smilk",
   price: 5
 }
 const menu = [TOBY, SMILK];
@@ -31,7 +31,7 @@ let quantity = quantityForm.value;
         shoppingCart.push(TOBY);
         // if there is more than one item added, it SHOULD add them all
       }
-      OUTPUT.innerHTML += quantity + ;
+      OUTPUT.innerHTML += quantity + TOBY.name ;
       console.log(shoppingCart);
    }
    else {
