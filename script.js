@@ -2,15 +2,15 @@ console.log("Running code");
 
 //Variables
 let shoppingCart = [  ];
-const Toby ={
+const TOBY ={
   name: "Toby",
   price: 3
 } 
-const Smilk ={
+const SMILK ={
   name: "Smilk",
   price: 5
 }
-const menu = [Toby, Smilk];
+const menu = [TOBY, SMILK];
 const QUANTITY = document.getElementById("quantityForm");
 let quantity = quantityForm.value;
 
@@ -23,15 +23,15 @@ const OUTPUT = document.getElementById("Basket");
 
 
 
-function addTobyToBasket() {
+function addToBasket(TOBY) {
 let quantity = quantityForm.value;
    if(quantity > 1){ 
 
       for( let i = 0; i < quantity; i++) {// that should let it count
-        shoppingCart.push(Toby);
+        shoppingCart.push(TOBY);
         // if there is more than one item added, it SHOULD add them all
       }
-      OUTPUT.innerHTML += quantity + " Toby ";
+      OUTPUT.innerHTML += quantity + ;
       console.log(shoppingCart);
    }
    else {
