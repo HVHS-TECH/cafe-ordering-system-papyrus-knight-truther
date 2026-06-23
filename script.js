@@ -11,7 +11,7 @@ const SMILK ={
   price: 5
 }
 const menu = [TOBY, SMILK];
-const QUANTITY = document.getElementById("quantityForm");
+
 let quantity = quantityForm.value;
 
 //main code
@@ -20,10 +20,6 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addToBasket(TOBY, quantityForm) {
-   if(QUANTITY.checkValidity()=== false) {
-        OUTPUT.innerHTML = "please fill out this form"
-    }
-    else{
 let quantity = quantityForm.value;
    if(quantity > 1){ 
 
@@ -35,12 +31,11 @@ let quantity = quantityForm.value;
       console.log(shoppingCart);
    }
    else {
-     shoppingCart.push(Toby);
-   OUTPUT.innerHTML += "Toby ";
+     shoppingCart.push(TOBY);
+   OUTPUT.innerHTML += TOBY.name + " ";
    console.log(shoppingCart); 
    //if there is only one it shoukd add only one
    }
   }
-}
 
   
