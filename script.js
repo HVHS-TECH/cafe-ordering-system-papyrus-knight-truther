@@ -23,7 +23,7 @@ const OUTPUT = document.getElementById("Basket");
 
 
 
-function addToBasket(TOBY) {
+function addToBasket(TOBY, quantityForm) {
 let quantity = quantityForm.value;
    if(quantity > 1){ 
 
@@ -31,7 +31,7 @@ let quantity = quantityForm.value;
         shoppingCart.push(TOBY);
         // if there is more than one item added, it SHOULD add them all
       }
-      OUTPUT.innerHTML += quantity += TOBY.name += " " ;
+      OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
    }
    else {
