@@ -14,16 +14,12 @@ const menu = [TOBY, SMILK];
 const QUANTITY = document.getElementById("quantityForm");
 let quantity = quantityForm.value;
 
-/*function getFormInput() {
-   let QUANTITY = document.getElementById("quantityForm");
-}*/
-
 //main code
 const OUTPUT = document.getElementById("Basket");
 
 
 
-function addToBasket(TOBY, ) {
+function addToBasket(TOBY, quantityForm) {
 let quantity = quantityForm.value;
    if(quantity > 1){ 
 
@@ -41,15 +37,5 @@ let quantity = quantityForm.value;
    //if there is only one it shoukd add only one
    }
 }
-
-
-
-
-
-/*function checkDuplicates(shoppingCart) {
-  return check.size !== shoppingCart.length
- if (checkDuplicates() === true) {
-  console.log("Duplicates found!")
-} */
 
   
