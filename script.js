@@ -44,4 +44,8 @@ let quantity = quantityForm.value;
   }
 }
 
+function getFromInput() {
+  const MONEY = document.getElementById(moneyForm)
+}
+
  
