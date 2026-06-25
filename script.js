@@ -12,6 +12,8 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
+const TOTAL = 
+
 let quantity = quantityForm.value;
 
 //main code
@@ -44,11 +46,13 @@ let quantity = quantityForm.value;
   }
 }
 
-function getFormInput(MONEY) {
+function getFormInput(MONEY, total) {
   const MONEY = document.getElementById("moneyForm") 
-  if {
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
+  }
+  else if(MONEY ) {
+     
   }
 }
 
