@@ -10,7 +10,7 @@ const SMILK ={
   name: "Smilk",
   price: 5
 }
-const menu = [TOBY, SMILK];
+const MENU = [TOBY, SMILK];
 
 let quantity = quantityForm.value;
 
