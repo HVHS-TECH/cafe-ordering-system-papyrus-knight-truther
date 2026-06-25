@@ -12,7 +12,7 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
-const TOTAL = 
+const TOTAL = shoppingCart.value;
 
 let quantity = quantityForm.value;
 
@@ -46,13 +46,16 @@ let quantity = quantityForm.value;
   }
 }
 
-function getFormInput(MONEY, total) {
+function getFormInput(MONEY, TOTAL) {
   const MONEY = document.getElementById("moneyForm") 
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
-  else if(MONEY ) {
-     
+  else if(MONEY < TOTAL ) {
+     OUTPUT.innerHTML += "You do not have enough money";
+  }
+  else{
+    OUTPUT.innerHTML += "Your order has been confirmed!";
   }
 }
 
