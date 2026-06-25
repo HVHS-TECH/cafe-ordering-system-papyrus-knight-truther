@@ -20,7 +20,8 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addToBasket(TOBY, quantityForm) {
-  if(quantityForm.checkValidity()=== false) {
+  const QUANTITY = document.getElementById("quantityForm")
+  if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
     else {
