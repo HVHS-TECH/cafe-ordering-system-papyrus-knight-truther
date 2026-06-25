@@ -20,6 +20,10 @@ const OUTPUT = document.getElementById("Basket");
 
 
 function addToBasket(TOBY, quantityForm) {
+  if(quantityForm.checkValidity()=== false) {
+        OUTPUT.innerHTML = "please fill out this form"
+    }
+    else {
 let quantity = quantityForm.value;
    if(quantity > 1){ 
 
@@ -37,5 +41,6 @@ let quantity = quantityForm.value;
    //if there is only one it shoukd add only one
    }
   }
+}
 
   
