@@ -11,7 +11,14 @@
    </div>
 
    <div class="Checkout">
-      
+      <div id="displayPrice">
+
+      </div>
+      <form onSubmit="return false" min="1" max="500" required>
+      <label for="money">Your money:</label>
+      <input type="number" id="moneyForm" name="money">
+      <input type="submit" onClick="getFormInput">
+    </form>
    </div>
 
 </div>
