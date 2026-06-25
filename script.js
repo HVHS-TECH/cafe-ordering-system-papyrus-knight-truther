@@ -47,7 +47,8 @@ let quantity = quantityForm.value;
 function getFormInput() {
   const MONEY = document.getElementById(moneyForm)
   if {
-    
+     if(MONEY.checkValidity()=== false) {
+        OUTPUT.innerHTML = "please fill out this form"
   }
 }
 
