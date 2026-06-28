@@ -45,9 +45,9 @@ let quantity = quantityForm.value;
    }
   }
 }
-
+ 
 function getFormInput(MONEY, TOTAL) {
-  const MONEY = document.getElementById("moneyForm") 
+ let MONEY = document.getElementById("moneyForm") 
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
