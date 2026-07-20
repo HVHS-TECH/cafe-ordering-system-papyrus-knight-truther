@@ -31,23 +31,12 @@ function addToBasket(TOBY, quantityForm) {
     }
     else {
 let quantity = quantityForm.value;
-   if(quantity > 1){ 
-
-      for( let i = 0; i < quantity; i++) {// that should let it count
-        shoppingCart.push(TOBY);
-        // if there is more than one item added, it SHOULD add them all
-      }
+   shoppingCart.push(TOBY);
       OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
    }
-   else {
-     shoppingCart.push(TOBY);
-   OUTPUT.innerHTML += TOBY.name + " ";
-   console.log(shoppingCart); 
-   //if there is only one it shoukd add only one
-   }
   }
-}
+
  
 function getFormInput(moneyForm, TOTAL) {
  const MONEY = document.getElementById("moneyForm");
