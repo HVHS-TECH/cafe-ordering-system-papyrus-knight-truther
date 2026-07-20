@@ -30,7 +30,7 @@ function addToBasket(TOBY, quantityForm) {
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
-    else {
+    else if(shoppingCart.length > 1){
 let quantity = quantityForm.value;
 TOBY.quantity = quantityForm.value;
    shoppingCart.push(TOBY);
