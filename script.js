@@ -2,13 +2,16 @@ console.log("Running code");
 
 //Variables
 let shoppingCart = [  ];
+
 const TOBY ={
   name: "Toby",
-  price: 3
+  price: 3,
+  quantity:1
 } 
 const SMILK ={
   name: "Smilk",
-  price: 5
+  price: 5,
+  quantity: 1
 }
 const MENU = [TOBY, SMILK];
 
