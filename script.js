@@ -6,7 +6,7 @@ let shoppingCart = [  ];
 const TOBY ={
   name: "Toby",
   price: 3,
-  quantity:1
+  quantity : (quantityForm.value)
 } 
 const SMILK ={
   name: "Smilk",
@@ -32,7 +32,7 @@ function addToBasket(TOBY, quantityForm) {
     else {
 let quantity = quantityForm.value;
    shoppingCart.push(TOBY);
-      OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
+      OUTPUT.innerHTML += TOBY.quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
    }
   }
