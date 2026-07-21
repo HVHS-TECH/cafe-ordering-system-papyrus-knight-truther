@@ -45,7 +45,20 @@
  </div>
 
  <div class="CheckoutLink">
-   <a href="checkout.html"> Checkout</a>
+   <div class="Checkout">
+      <div id="displayPrice">
+
+      </div>
+      <form onSubmit="return false" >
+      <label for="money">Your money:</label>
+      <input type="number" id="moneyForm" name="money" min="1" max="500" required>
+      <input type="submit" name="Pay" onClick="getFormInput()">
+    </form>
+   </div>
+
+   <div id="Basket">
+      
+   </div>
  </div>
 
  <div class="Burgerpants">
