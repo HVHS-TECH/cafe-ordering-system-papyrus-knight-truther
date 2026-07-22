@@ -16,7 +16,7 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
-const TOTAL = shoppingCart.value;
+let total ;
 
 let quantity = quantityForm.value;
 
@@ -40,9 +40,9 @@ TOBY.quantity = quantityForm.value;
    }
   }
 function calculateTotal(){
- let total = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
+  total = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
   console.log(total);
-  return total;
+  
 }
  
 function getFormInput(moneyForm, total) {
