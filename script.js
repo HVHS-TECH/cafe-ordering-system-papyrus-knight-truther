@@ -12,13 +12,13 @@ const TOBY ={
 const SMILK ={
   name: "Smilk",
   quantity: 1,
-  price: 5
+  price: 3
 }
 const MENU = [TOBY, SMILK];
 
 
 
-let total = calculateTotal(total);
+let total = calculateTotal(SM;
 
 function calculateTotal(SMILK, TOBY) {
     SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity
