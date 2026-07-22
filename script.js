@@ -11,8 +11,8 @@ const TOBY ={
 } 
 const SMILK ={
   name: "Smilk",
-  price: 5,
-  quantity: 1
+  quantity: 1,
+  price: 5
 }
 const MENU = [TOBY, SMILK];
 
