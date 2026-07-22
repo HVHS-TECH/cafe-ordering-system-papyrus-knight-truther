@@ -16,7 +16,7 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
-const TOTAL = shoppingCart.value;
+const TOTAL = SMILK.price;
 
 let quantity = quantityForm.value;
 
