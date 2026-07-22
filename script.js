@@ -16,7 +16,7 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
-
+const TOTAL = shoppingCart.value;
 
 let quantity = quantityForm.value;
 
@@ -43,7 +43,6 @@ TOBY.quantity = quantityForm.value;
  
 function getFormInput(moneyForm, TOTAL) {
  const MONEY = document.getElementById("moneyForm");
- const TOTAL = shoppingCart.value;
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
