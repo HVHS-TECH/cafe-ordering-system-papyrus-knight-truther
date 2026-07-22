@@ -25,15 +25,15 @@ const OUTPUT = document.getElementById("Basket");
 
 let userMoney ;
 
-function addToBasket(TOBY, userQuantityForm) {
+function addToBasket(TOBY, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
     else{
       
-let quantity = userQuantityForm.value;
-TOBY.quantity = userQuantityForm.value;
+let quantity = quantityForm.value;
+TOBY.quantity = quantityForm.value;
    shoppingCart.push(TOBY);
       OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
