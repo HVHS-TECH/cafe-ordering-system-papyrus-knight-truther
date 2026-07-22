@@ -25,7 +25,7 @@ const OUTPUT = document.getElementById("Basket");
 
 
 
-function addToBasket(TOBY, quantityForm) {
+function addToBasket() {
   const QUANTITY = document.getElementById("quantityForm")
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
@@ -45,9 +45,11 @@ function calculateTotal(){
   
 }
  
-function getFormInput(moneyForm, total) {
+function getFormInput() {
   calculateTotal();
+  console.log(total);
  const MONEY = document.getElementById("moneyForm");
+ console.log(MONEY);
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
