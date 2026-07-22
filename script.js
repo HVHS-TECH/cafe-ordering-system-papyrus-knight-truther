@@ -12,22 +12,18 @@ const TOBY ={
 const SMILK ={
   name: "Smilk",
   quantity: 1,
-  price: 3
+  price: 5
 }
 const MENU = [TOBY, SMILK];
 
-
-
-let total = calculateTotal(SM;
-
-function calculateTotal(SMILK, TOBY) {
-    SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity
-  }
+const TOTAL = shoppingCart.value;
 
 let quantity = quantityForm.value;
 
 //main code
 const OUTPUT = document.getElementById("Basket");
+
+
 
 function addToBasket(TOBY, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")
@@ -45,8 +41,7 @@ TOBY.quantity = quantityForm.value;
   }
 
  
-function getFormInput(moneyForm, total) {
-  calculateTotal(SMILK, TOBY);
+function getFormInput(moneyForm, TOTAL) {
  const MONEY = document.getElementById("moneyForm");
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
