@@ -25,15 +25,15 @@ const OUTPUT = document.getElementById("Basket");
 
 let userMoney ;
 
-function addToBasket() {
+function addToBasket(TOBY, userQuantityForm) {
   const QUANTITY = document.getElementById("quantityForm")
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
     else{
       
-let quantity = quantityForm.value;
-TOBY.quantity = quantityForm.value;
+let quantity = userQuantityForm.value;
+TOBY.quantity = userQuantityForm.value;
    shoppingCart.push(TOBY);
       OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
@@ -49,12 +49,13 @@ function getFormInput() {
   calculateTotal();
   console.log(total);
  const MONEY = document.getElementById("moneyForm");
+ const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
- console.log(MONEY);
-     if(moneyForm.checkValidity()=== false) {
+ console.log(userMoney);
+     if(MONEYFORM.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
-  else if(MONEY < total) {
+  else if(userMoney < total) {
      OUTPUT.innerHTML += "You do not have enough money";
   }
   else{

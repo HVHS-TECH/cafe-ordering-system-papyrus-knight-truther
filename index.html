@@ -19,9 +19,9 @@
         <p>Toby Fox! $3</p>
     
 
-<form onSubmit="return false" min="1" max="20" required>
+<form onSubmit="return false" id="userQuantityForm" >
       <label for="quantity">Quantity:</label>
-      <input type="number" id="quantityForm" name="quantity">
+      <input type="number" id="quantityForm" name="quantity" min="1" max="20" required>
       <input type="submit" onClick="addToBasket(TOBY, quantityForm)">
     </form>
     </div>
@@ -29,7 +29,7 @@
     <div class="Smilk">
       <img src="./images/Shadow_Milk.png" width="150px">
       <p>Shadow Milk! $5</p>
-      <form onSubmit="return false"></form>
+      <form onSubmit="return false" id="userQuantityForm2"></form>
       <label for="quantity">Quantity:</label>
       <input type="number" id="quantityForm2" name="quantity" min="1" max="20" required>
       <input type="submit" onClick="addToBasket(SMILK, quantityForm2)">
@@ -49,7 +49,7 @@
       <div id="displayPrice">
 
       </div>
-      <form onSubmit="return false" >
+      <form onSubmit="return false" id="userMoneyForm" >
       <label for="money">Your money:</label>
       <input type="number" id="moneyForm" name="money" min="1" max="500" required>
       <input type="submit" name="Pay" onClick="getFormInput()">
