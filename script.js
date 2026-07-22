@@ -16,7 +16,7 @@ const SMILK ={
 }
 const MENU = [TOBY, SMILK];
 
-const TOTAL = SMILK.price * SMILK.quantity;
+const TOTAL = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
 
 let quantity = quantityForm.value;
 
