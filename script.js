@@ -35,7 +35,7 @@ function addToBasket(TOBY, quantityForm) {
 let quantity = quantityForm.value;
 TOBY.quantity = quantityForm.value;
    shoppingCart.push(TOBY);
-      OUTPUT.innerHTML += TOBY.quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
+      OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
    }
   }
