@@ -39,7 +39,10 @@ TOBY.quantity = quantityForm.value;
       console.log(shoppingCart);
    }
   }
-
+function calculateTotal(){
+ let total = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
+  console.log(total)
+}
  
 function getFormInput(moneyForm, TOTAL) {
  const MONEY = document.getElementById("moneyForm");
