@@ -23,7 +23,7 @@ let quantity = quantityForm.value;
 //main code
 const OUTPUT = document.getElementById("Basket");
 
-
+let userMoney ;
 
 function addToBasket() {
   const QUANTITY = document.getElementById("quantityForm")
@@ -49,8 +49,9 @@ function getFormInput() {
   calculateTotal();
   console.log(total);
  const MONEY = document.getElementById("moneyForm");
+ userMoney = MONEY.value;
  console.log(MONEY);
-     if(MONEY.checkValidity()=== false) {
+     if(moneyForm.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
   else if(MONEY < total) {
