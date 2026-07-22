@@ -5,13 +5,13 @@ let shoppingCart = [  ];
 
 const TOBY ={
   name: "Toby",
-  quantity : 1,
+  quantity : 0,
   price: 3
   
 } 
 const SMILK ={
   name: "Smilk",
-  quantity: 1,
+  quantity: 0,
   price: 5
 }
 const MENU = [TOBY, SMILK];
@@ -41,15 +41,17 @@ TOBY.quantity = quantityForm.value;
   }
 function calculateTotal(){
  let total = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
-  console.log(total)
+  console.log(total);
+  return total;
 }
  
-function getFormInput(moneyForm, TOTAL) {
+function getFormInput(moneyForm, total) {
+  calculateTotal();
  const MONEY = document.getElementById("moneyForm");
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
-  else if(MONEY < TOTAL) {
+  else if(MONEY < total) {
      OUTPUT.innerHTML += "You do not have enough money";
   }
   else{
