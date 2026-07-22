@@ -46,7 +46,7 @@ function getFormInput(moneyForm, TOTAL) {
      if(MONEY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
-  else if(MONEY < TOTAL ) {
+  else if(MONEY < TOTAL) {
      OUTPUT.innerHTML += "You do not have enough money";
   }
   else{
