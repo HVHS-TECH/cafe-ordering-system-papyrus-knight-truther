@@ -1,7 +1,7 @@
 console.log("Running code");
 
 //Variables
-let shoppingCart = [  ];
+
 
 const STARFAIT ={
   name: " starfait",
@@ -26,6 +26,8 @@ const METASTEAK ={
   quantity: 0,
   price: 500
 }
+
+let shoppingCart = [STARFAIT, GLAMBURGER, LEGHERO, METASTEAK];
 
 const MENU = [STARFAIT, GLAMBURGER, LEGHERO, METASTEAK];
 
