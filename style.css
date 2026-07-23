@@ -48,13 +48,4 @@ background-color: rgb(229, 202, 82);
 width: 740px;
 }
 
-.CheckoutLink{
-grid-row: 3 / 4;
-grid-column: 2 / 3;
-}
 
-.Burgerpants{
-grid-row: 3 / 4;
-grid-column: 1 / 2;
-background-color: green;
-}
