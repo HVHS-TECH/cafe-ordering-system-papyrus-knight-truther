@@ -14,10 +14,9 @@
  <div class="Menu">
     <div class="MenuTitle"><h1>MENU</h1></div>
 
-    <div class="Toby">
-        <img src="./images/Starfait_item.webp" width="150px">
-        <p>Starfait</p>
-    
+    <div class="Starfait">
+        <img src="./images/Starfait_item.webp" height="150px">
+        <p>Starfait 60G</p>
 
 <form onSubmit="return false" id="userQuantityForm" >
       <label for="quantity">Quantity:</label>
@@ -26,9 +25,19 @@
     </form>
     </div>
 
-    <div class="Smilk">
-      <img src="./images/Shadow_Milk.png" width="150px">
-      <p>Shadow Milk! $5</p>
+    <div class="Glamburger">
+      <img src="./images/Glamburger_item.webp" height="150px">
+      <p>Glamburger 120G</p>
+      <form onSubmit="return false" id="userQuantityForm2"></form>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantityForm2" name="quantity" min="1" max="20" required>
+      <input type="submit" onClick="addToBasket(SMILK, quantityForm2)">
+    </form>
+    </div>
+
+    <div class="LegendaryHero">
+      <img src="./images/Glamburger_item.webp" height="150px">
+      <p>Glamburger 120G</p>
       <form onSubmit="return false" id="userQuantityForm2"></form>
       <label for="quantity">Quantity:</label>
       <input type="number" id="quantityForm2" name="quantity" min="1" max="20" required>
