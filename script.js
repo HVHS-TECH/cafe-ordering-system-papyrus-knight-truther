@@ -31,15 +31,17 @@ const MENU = [STARFAIT, GLAMBURGER, LEGHERO, METASTEAK];
 
 let total ;
 
+let userMoney ;
+
 let quantity = quantityForm.value;
 
 //main code
 const OUTPUT = document.getElementById("Basket");
 
-let userMoney ;
 
+// lets you add things to your basket
 function addToBasket(STARFAIT, quantityForm) {
-  const QUANTITY = document.getElementById("quantityForm")
+  const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
@@ -48,32 +50,41 @@ function addToBasket(STARFAIT, quantityForm) {
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
    shoppingCart.push(STARFAIT);
-      OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart itemshave a space between them
+      OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
   }
+
+  
+
 function calculateTotal(){
   total = STARFAIT.price * STARFAIT.quantity + GLAMBURGER.price * GLAMBURGER.quantity + LEGHERO.price * LEGHERO.quantity + METASTEAK.price * METASTEAK.quantity ;
   console.log(total);
-  
+  //calculates the total price by multiplying the price by the amoun of items. there is probably an easier way to do this T.T
 }
  
 function getFormInput() {
-  calculateTotal();
-  console.log(total);
+  calculateTotal(); //re-calculates total on submit so the total is correct and up to date
+  console.log(total); //just so i can make sure the total is correct!
+  
  const MONEY = document.getElementById("moneyForm");
  const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
- console.log(userMoney);
+  console.log(userMoney);
      if(MONEYFORM.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
   }
   else if(userMoney < total) {
-     OUTPUT.innerHTML += "You do not have enough G!";
+     OUTPUT.innerHTML = "You do not have enough G!";
   }
   else{
-    OUTPUT.innerHTML += "Your order has been confirmed!";
+    OUTPUT.innerHTML = "Your order has been confirmed!";
   }
 }
 
+function clearCart(){
+    shoppingCart = [];
+    OUTPUT.innerHTML = " ";
+    console.log(shoppingCart);
+  }
  
