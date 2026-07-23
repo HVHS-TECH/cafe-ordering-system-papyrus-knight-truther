@@ -49,7 +49,6 @@ function addToBasket(STARFAIT, quantityForm) {
       
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
-   shoppingCart.push(STARFAIT);
       OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
@@ -83,8 +82,11 @@ function getFormInput() {
 }
 
 function clearCart(){
-    shoppingCart = [];
     OUTPUT.innerHTML = " ";
     console.log(shoppingCart);
+    STARFAIT.quantity = 0;
+    GLAMBURGER.quantity = 0;
+    LEGHERO.quantity = 0;
+    METASTEAK.quantity = 0;
   }
  
