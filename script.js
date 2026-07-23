@@ -4,25 +4,25 @@ console.log("Running code");
 let shoppingCart = [  ];
 
 const STARFAIT ={
-  name: "starfait",
+  name: " starfait",
   quantity : 0,
   price: 60
   
 } 
 const GLAMBURGER ={
-  name: "Smilk",
+  name: " Glamburger",
   quantity: 0,
   price: 120
 }
 
 const LEGHERO ={
-  name: "Smilk",
+  name: " Legendary Hero",
   quantity: 0,
   price: 300
 }
 
 const METASTEAK ={
-  name: "Smilk",
+  name: " Steak in the shape of mettatons face",
   quantity: 0,
   price: 500
 }
