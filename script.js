@@ -69,7 +69,7 @@ function getFormInput() {
         OUTPUT.innerHTML = "please fill out this form"
   }
   else if(userMoney < total) {
-     OUTPUT.innerHTML += "You do not have enough money";
+     OUTPUT.innerHTML += "You do not have enough G!";
   }
   else{
     OUTPUT.innerHTML += "Your order has been confirmed!";
