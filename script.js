@@ -38,7 +38,7 @@ const OUTPUT = document.getElementById("Basket");
 
 let userMoney ;
 
-function addToBasket(TOBY, quantityForm) {
+function addToBasket(STARFAIT, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
@@ -47,13 +47,13 @@ function addToBasket(TOBY, quantityForm) {
       
 let quantity = quantityForm.value;
 TOBY.quantity = quantityForm.value;
-   shoppingCart.push(TOBY);
-      OUTPUT.innerHTML += quantity += TOBY.name += " " ; //space so the cart itemshave a space between them
+   shoppingCart.push(STARFAIT);
+      OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
    }
   }
 function calculateTotal(){
-  total = SMILK.price * SMILK.quantity + TOBY.price * TOBY.quantity;
+  total = STARFAIT.price * STARFAIT.quantity + GLAMBURGER.price * GLAMBURGER.quantity + LEGHERO.price * LEGHERO.quantity + METASTEAK.price * METASTEAK.quantity ;
   console.log(total);
   
 }
