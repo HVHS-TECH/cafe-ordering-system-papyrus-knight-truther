@@ -46,7 +46,7 @@ function addToBasket(STARFAIT, quantityForm) {
     else{
       
 let quantity = quantityForm.value;
-TOBY.quantity = quantityForm.value;
+STARFAIT.quantity = quantityForm.value;
    shoppingCart.push(STARFAIT);
       OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart itemshave a space between them
       console.log(shoppingCart);
