@@ -61,7 +61,6 @@ function calculateTotal(){
 function getFormInput() {
   calculateTotal();
   console.log(total);
-  OUTPUT.innerHTML += "your total is " += (total;
  const MONEY = document.getElementById("moneyForm");
  const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
