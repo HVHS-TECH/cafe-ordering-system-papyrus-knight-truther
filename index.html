@@ -37,7 +37,17 @@
 
     <div class="LegendaryHero">
       <img src="./images/Legendary_Hero_item.webp" height="150px">
-      <p>Glamburger 120G</p>
+      <p>Legendary Hero 300G</p>
+      <form onSubmit="return false" id="userQuantityForm3"></form>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantityForm3" name="quantity" min="1" max="20" required>
+      <input type="submit" onClick="addToBasket(SMILK, quantityForm3)">
+    </form>
+    </div>
+
+    <div class="SteakInTheShapeOfMettatonsFace">
+      <img src="./images/Steak_in_the_Shape_of_Mettatons_Face_item.webp" height="150px">
+      <p>Steak In The Shape Of Mettatons Face 500G</p>
       <form onSubmit="return false" id="userQuantityForm3"></form>
       <label for="quantity">Quantity:</label>
       <input type="number" id="quantityForm3" name="quantity" min="1" max="20" required>
