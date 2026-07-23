@@ -3,18 +3,31 @@ console.log("Running code");
 //Variables
 let shoppingCart = [  ];
 
-const TOBY ={
-  name: "Toby",
+const STARFAIT ={
+  name: "starfait",
   quantity : 0,
-  price: 3
+  price: 60
   
 } 
-const SMILK ={
+const GLAMBURGER ={
   name: "Smilk",
   quantity: 0,
-  price: 5
+  price: 120
 }
-const MENU = [TOBY, SMILK];
+
+const LEGHERO ={
+  name: "Smilk",
+  quantity: 0,
+  price: 300
+}
+
+const METASTEAK ={
+  name: "Smilk",
+  quantity: 0,
+  price: 500
+}
+
+const MENU = [STARFAIT, GLAMBURGER, LEGHERO, METASTEAK];
 
 let total ;
 
