@@ -55,7 +55,7 @@ function addToBasket(STARFAIT, quantityForm, star) {
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
-    else if(star= 0) {
+    else if(star== 0) {
       
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
@@ -63,7 +63,7 @@ STARFAIT.quantity = quantityForm.value;
       console.log(shoppingCart);
       star = 1;
    }
-   else if(star = 1){
+   else if(star == 1){
     OUTPUT.innerHTML += "you already have this item in your cart!";
    }
   }
