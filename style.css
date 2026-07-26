@@ -35,17 +35,13 @@ max-width: 1000px;
      transition: transform .2s;   
     }
 
-    img: hover{
+    img:hover{
       transform: scale(1.2);
     }
 }
 .Starfait{
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-}
-
-.Starfait:hover{
-    
 }
 
 .Glamburger{
