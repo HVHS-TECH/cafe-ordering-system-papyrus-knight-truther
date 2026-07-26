@@ -64,7 +64,7 @@ star = 1;
    }
    else{
     let quantity = quantityForm.value;
-    STARFAIT.quantity = STARFAIT.quantity + quantity ;
+    STARFAIT.quantity = (STARFAIT.quantity + quantity );
     OUTPUT.innerHTML = STARFAIT.quantity += STARFAIT.name += " ";
     console.log(shoppingCart);
    }
