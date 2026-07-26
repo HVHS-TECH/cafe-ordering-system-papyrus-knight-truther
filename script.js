@@ -91,17 +91,18 @@ function getFormInput() {
  const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
   console.log(userMoney);
+  change = (userMoney - total);
+  console.log(change);
      if(MONEYFORM.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form";
-        change = (userMoney - total);
-  console.log(change);
+        
   }
   else if(userMoney < total) {
      OUTPUT.innerHTML += "You do not have enough G!";//lets the user know that they cannot afford their order
   }
   else{
     OUTPUT.innerHTML = "Hello " + userName + "! Your order has been confirmed! Your change is:" 
-    + change + "Thank you for shopping with us!";// lets the user know their order is confirmed
+    + change + "G Thank you for shopping with us!";// lets the user know their order is confirmed
   }
 }
 
