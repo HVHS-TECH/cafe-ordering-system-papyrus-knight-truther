@@ -58,9 +58,10 @@ function addToBasket(STARFAIT, quantityForm, star) {
     }
     else{
       
-for(quantity = quantityForm.value; quantity > 0; quantity --){
+for(let i=quantityForm.value; i>0; i--){
 STARFAIT.quantity ++;
 }
+let quantity = quantityForm.value;
 OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
