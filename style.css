@@ -17,6 +17,7 @@ input{
     font-family: inherit;
     color: rgb(102, 86, 34);
     background-color: rgb(241, 212, 147);
+    border: 2px solid;
     border-color: rgb(102, 86, 34);
     outline: none;
 }
