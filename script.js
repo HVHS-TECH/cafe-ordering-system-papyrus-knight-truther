@@ -60,7 +60,7 @@ function addToBasket(STARFAIT, quantityForm, star) {
       
 for(let i=quantityForm.value; i>0; i--){
 STARFAIT.quantity ++;
-}
+}// sets the quantity by increasing by 1 for each time there is quantity added
 let quantity = quantityForm.value;
 OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
