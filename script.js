@@ -37,11 +37,11 @@ let userMoney ;
 
 let quantity = quantityForm.value;
 
-let counter ={
-  star: 0,
-  glam: 0,
-  leg: 0,
-  meta: 0,
+
+ let star= 0;
+ let glam= 0;
+ let leg= 0;
+ let meta= 0;
 }
 
 //main code
@@ -49,15 +49,16 @@ const OUTPUT = document.getElementById("Basket");
 
 
 // lets you add things to your basket
-function addToBasket(STARFAIT, quantityForm) {
+function addToBasket(STARFAIT, quantityForm, star) {
   const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
-    else if(counter.star = 0){
+    else if(star = 0){
       
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
+counter.star = 1;
       OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
