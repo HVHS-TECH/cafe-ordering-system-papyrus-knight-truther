@@ -58,17 +58,11 @@ function addToBasket(STARFAIT, quantityForm, star) {
     }
     else{
       
-let quantity = quantityForm.value;
-for
-STARFAIT.quantity = quantityForm.value;
-      OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
+for(quantity = quantityForm.value; quantity > 0; quantity --){
+STARFAIT.quantity ++;
+}
+OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
-      star = 1;
-      return star;
-      console.log(star);
-   }
-   else{
-    OUTPUT.innerHTML += "you already have this item in your cart!";
    }
   }
 
