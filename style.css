@@ -5,12 +5,13 @@
 
 body {
 background-color:rgb(247, 216, 78);
+font-family: "UT";
+color: rgb(102, 86, 34);
 }
 
 .Main {
-    font-family:"UT";
 display: grid;
-color: rgb(102, 86, 34);
+
 
 button,
 input{
@@ -89,3 +90,6 @@ border: 5px solid;
 border-color: rgb(243, 184, 22);
 }
 
+marquee{
+    color: rgb(172, 118, 18);
+}
