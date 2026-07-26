@@ -89,3 +89,7 @@ border: 5px solid;
 border-color: rgb(243, 184, 22);
 }
 
+audio{
+    display:block;
+    color:rgb(247, 216, 78);
+}
