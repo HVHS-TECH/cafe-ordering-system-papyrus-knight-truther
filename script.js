@@ -80,7 +80,7 @@ function getFormInput() {
   calculateTotal(); //re-calculates total on submit so the total is correct and up to date
   console.log(total); //just so i can make sure the total is correct!
   
-  const NAME = document.getElementById("moneyForm");
+  const NAME = document.getElementById("nameForm");
  const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
   console.log(userMoney);
