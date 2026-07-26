@@ -62,6 +62,10 @@ counter.star = 1;
       OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
+   else{
+    let quantity = quantityForm.value;
+    STARFAIT.quantity = STARFAIT.quantity + quantity ;
+   }
   }
 
   
