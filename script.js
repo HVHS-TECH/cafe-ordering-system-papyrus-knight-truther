@@ -37,7 +37,12 @@ let userMoney ;
 
 let quantity = quantityForm.value;
 
-let counter = 0;
+let counter ={
+  star: 0,
+  glam: 0,
+  leg: 0,
+  meta: 0,
+}
 
 //main code
 const OUTPUT = document.getElementById("Basket");
