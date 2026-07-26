@@ -47,10 +47,10 @@ const OUTPUT = document.getElementById("Basket");
 // lets you add things to your basket
 function addToBasket(STARFAIT, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
-  if(QUANTITY.checkValidity()=== false) {
-        OUTPUT.innerHTML = "please fill out this form"
-    }
-    else{
+  //if(QUANTITY.checkValidity()=== false) {
+      //  OUTPUT.innerHTML = "please fill out this form"
+   // }
+   // else{
       
 for(let i=quantityForm.value; i>0; i--){
 STARFAIT.quantity ++;
