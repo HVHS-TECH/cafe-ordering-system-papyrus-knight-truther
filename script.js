@@ -47,19 +47,15 @@ const OUTPUT = document.getElementById("Basket");
 // lets you add things to your basket
 function addToBasket(STARFAIT, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
-  //if(QUANTITY.checkValidity()=== false) {
-      //  OUTPUT.innerHTML = "please fill out this form"
-   // }
-   // else{
-      
 for(let i=quantityForm.value; i>0; i--){
 STARFAIT.quantity ++;
-}// sets the quantity by increasing by 1 for each time there is quantity added
+}
+// sets the quantity by increasing by 1 for each time there is quantity added
 let quantity = quantityForm.value;
 OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
-  }
+  
 
   
 
