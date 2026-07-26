@@ -35,6 +35,8 @@ let total ;
 
 let userMoney ;
 
+let change ;
+
 let quantity = quantityForm.value;
 
 
@@ -74,6 +76,9 @@ function calculateTotal(){
   total = STARFAIT.price * STARFAIT.quantity + GLAMBURGER.price * GLAMBURGER.quantity + LEGHERO.price * LEGHERO.quantity + METASTEAK.price * METASTEAK.quantity ;
   console.log(total);
   //calculates the total price by multiplying the price by the amoun of items. there is probably an easier way to do this T.T
+  
+  change = (userMoney - total);
+  console.log(change);
 }
  
 function getFormInput() {
@@ -94,7 +99,8 @@ function getFormInput() {
      OUTPUT.innerHTML += "You do not have enough G!";//lets the user know that they cannot afford their order
   }
   else{
-    OUTPUT.innerHTML = "Your order has been confirmed!";// lets the user know their order is confirmed
+    OUTPUT.innerHTML = "Hello " + userName + "! Your order has been confirmed! You ordered:" + shoppingCart + " Your change is:" 
+    + change + "Thank you for shopping with us!";// lets the user know their order is confirmed
   }
 }
 
