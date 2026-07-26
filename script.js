@@ -58,7 +58,7 @@ function addToBasket(STARFAIT, quantityForm, star) {
       
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
-counter.star = 1;
+star = 1;
       OUTPUT.innerHTML += quantity += STARFAIT.name += " " ; //space so the cart items have a space between them
       console.log(shoppingCart);
    }
