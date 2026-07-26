@@ -66,11 +66,11 @@ max-width: 1000px;
     padding:10px;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
-}
 
+}
 .Cart {
 padding: 20px;
-grid-row: 2 / 4;
+grid-row: 2 / 3;
 grid-column: 2 / 3;
 background-color: rgb(229, 202, 82);
 }
