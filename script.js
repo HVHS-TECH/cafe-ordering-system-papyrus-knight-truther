@@ -54,7 +54,7 @@ function addToBasket(STARFAIT, quantityForm) {
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
     }
-    else if(counter){
+    else if(counter.star = 0){
       
 let quantity = quantityForm.value;
 STARFAIT.quantity = quantityForm.value;
