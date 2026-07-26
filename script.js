@@ -40,18 +40,12 @@ let change ;
 let quantity = quantityForm.value;
 
 
- let star= 0;
- let glam= 0;
- let leg= 0;
- let meta= 0;
-
-
 //main code
 const OUTPUT = document.getElementById("Basket");
 
 
 // lets you add things to your basket
-function addToBasket(STARFAIT, quantityForm, star) {
+function addToBasket(STARFAIT, quantityForm) {
   const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
