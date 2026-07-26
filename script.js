@@ -37,6 +37,8 @@ let userMoney ;
 
 let quantity = quantityForm.value;
 
+let counter = 0;
+
 //main code
 const OUTPUT = document.getElementById("Basket");
 
@@ -86,7 +88,7 @@ function getFormInput() {
 function clearCart(){
     OUTPUT.innerHTML = " ";
     console.log(shoppingCart);
-    STARFAIT.quantity = 0;
+    STARFAIT.quantity = 0;//sets each item to 0
     GLAMBURGER.quantity = 0;
     LEGHERO.quantity = 0;
     METASTEAK.quantity = 0;
