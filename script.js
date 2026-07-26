@@ -42,7 +42,7 @@ let quantity = quantityForm.value;
  let glam= 0;
  let leg= 0;
  let meta= 0;
-}
+
 
 //main code
 const OUTPUT = document.getElementById("Basket");
@@ -65,6 +65,8 @@ counter.star = 1;
    else{
     let quantity = quantityForm.value;
     STARFAIT.quantity = STARFAIT.quantity + quantity ;
+    OUTPUT.innerHTML = quantity += STARFAIT.name += " ";
+    console.log(shoppingCart);
    }
   }
 
