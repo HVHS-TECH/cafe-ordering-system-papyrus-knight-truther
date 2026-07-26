@@ -65,7 +65,7 @@ star = 1;
    else{
     let quantity = quantityForm.value;
     STARFAIT.quantity = STARFAIT.quantity + quantity ;
-    OUTPUT.innerHTML = quantity += STARFAIT.name += " ";
+    OUTPUT.innerHTML = STARFAIT.quantity += STARFAIT.name += " ";
     console.log(shoppingCart);
    }
   }
@@ -104,5 +104,9 @@ function clearCart(){
     GLAMBURGER.quantity = 0;
     LEGHERO.quantity = 0;
     METASTEAK.quantity = 0;
+    star = 0;
+    glam = 0;
+    leg = 0;
+    meta = 0;
   }
  
