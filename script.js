@@ -63,8 +63,8 @@ STARFAIT.quantity = quantityForm.value;
       console.log(shoppingCart);
       star = 1;
    }
-   else{
-    OUTPUT.innerHTML = "you already have this item in your cart!";
+   else if(star = 1){
+    OUTPUT.innerHTML += "you already have this item in your cart!";
    }
   }
 
