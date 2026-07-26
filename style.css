@@ -11,6 +11,13 @@ background-color:rgb(247, 216, 78);
     font-family:"UT";
 display: grid;
 color: rgb(102, 86, 34);
+
+button,
+input{
+    font-family: inherit;
+    color: rgb(102, 86, 34);
+    background-color: rgb(241, 212, 147);
+}
 }
 
 .header {
