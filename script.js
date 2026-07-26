@@ -77,8 +77,7 @@ function calculateTotal(){
   console.log(total);
   //calculates the total price by multiplying the price by the amoun of items. there is probably an easier way to do this T.T
   
-  change = (userMoney - total);
-  console.log(change);
+  
 }
  
 function getFormInput() {
@@ -93,7 +92,9 @@ function getFormInput() {
  userMoney = MONEY.value;
   console.log(userMoney);
      if(MONEYFORM.checkValidity()=== false) {
-        OUTPUT.innerHTML = "please fill out this form"
+        OUTPUT.innerHTML = "please fill out this form";
+        change = (userMoney - total);
+  console.log(change);
   }
   else if(userMoney < total) {
      OUTPUT.innerHTML += "You do not have enough G!";//lets the user know that they cannot afford their order
