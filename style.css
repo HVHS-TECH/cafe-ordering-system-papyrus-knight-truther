@@ -41,6 +41,9 @@ max-width: 1000px;
       transform: scale(1.2);
     }
 .Starfait{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
