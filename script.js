@@ -81,12 +81,8 @@ function getFormInput() {
   console.log(total); //just so i can make sure the total is correct!
   
   const NAME = document.getElementById("nameForm");
- const MONEYFORM = document.getElementById("userMoneyForm");
- userMoney = MONEY.value;
-  console.log(userMoney);
-     if(MONEYFORM.checkValidity()=== false) {
-        OUTPUT.innerHTML = "please fill out this form"
-
+ userName = NAME.value;
+  console.log(userName);
  const MONEY = document.getElementById("moneyForm");
  const MONEYFORM = document.getElementById("userMoneyForm");
  userMoney = MONEY.value;
