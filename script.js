@@ -52,7 +52,6 @@ const OUTPUT = document.getElementById("Basket");
 
 // lets you add things to your basket
 function addToBasket(STARFAIT, quantityForm, star) {
-  star = 0;
   const QUANTITY = document.getElementById("quantityForm")// finds the quantity of items so that total price can be claculated
   if(QUANTITY.checkValidity()=== false) {
         OUTPUT.innerHTML = "please fill out this form"
