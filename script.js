@@ -99,7 +99,7 @@ function getFormInput() {
      OUTPUT.innerHTML += "You do not have enough G!";//lets the user know that they cannot afford their order
   }
   else{
-    OUTPUT.innerHTML = "Hello " + userName + "! Your order has been confirmed! You ordered:" + shoppingCart + " Your change is:" 
+    OUTPUT.innerHTML = "Hello " + userName + "! Your order has been confirmed! You ordered:" + shoppingCart.name + " Your change is:" 
     + change + "Thank you for shopping with us!";// lets the user know their order is confirmed
   }
 }
